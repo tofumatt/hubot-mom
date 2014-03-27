@@ -1,0 +1,36 @@
+{
+  "name": "hubot-mom",
+  "version": "1.0.0",
+  "description": "Wow. Mom.",
+  "keywords": [
+    "meatspaces",
+    "hubot",
+    "hubot-scripts",
+    "meme"
+  ],
+  "author": {
+    "name": "tofumatt (Matthew Riley MacPherson)",
+    "url": "http://tofumatt.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tofumatt/hubot-mom.git"
+  },
+  "homepage": "https://github.com/tofumatt/hubot-mom",
+  "bugs": {
+    "url": "https://github.com/tofumatt/hubot-mom/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+  "main": "./index.coffee",
+  "scripts": {
+    "test": "script/test.sh"
+  }
+}
