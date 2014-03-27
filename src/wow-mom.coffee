@@ -16,4 +16,5 @@
 module.exports = (robot) ->
 
   robot.hear /\bwow\b/i, (msg) ->
-    msg.send "w o w. m o m."
+    msg.send "w o w."
+    msg.send "m o m."
