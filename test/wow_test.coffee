@@ -14,4 +14,4 @@ describe 'wow responder', ->
     require('../src/wow-mom')(@robot)
 
   it 'registers a hear listener for the word "wow"', ->
-    expect(@robot.hear).to.have.been.calledWith(/\bwow\b/i)
+    expect(@robot.hear).to.have.been.calledWith(/\b(wow|mom)\b/i)
