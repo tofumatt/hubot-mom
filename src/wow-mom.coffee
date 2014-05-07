@@ -16,5 +16,6 @@
 module.exports = (robot) ->
 
   robot.hear /\b(wow|mom)\b/i, (msg) ->
-    msg.send "w o w."
-    msg.send "m o m."
+    if Math.random > 0.9
+      msg.send "w o w."
+      msg.send "m o m."
